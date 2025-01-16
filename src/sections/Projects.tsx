@@ -96,7 +96,7 @@ export default function Projects() {
 										))}
 									</ul>
 									<a href={project.link}>
-										<button className="w-full h-12 inline-flex items-center justify-center gap-2 mt-8 font-semibold text-black/95 rounded-xl bg-[#F8F8F2] md:w-auto md:px-6">
+										<button className="w-full h-12 inline-flex items-center justify-center gap-2 mt-8 font-semibold text-[#BD93F9] border rounded-xl border-[#BD93F9] bg-transparent transition duration-300 hover:text-black/95 hover:border hover:border-[#F8F8F2] hover:bg-[#F8F8F2] hover:scale-95 md:w-auto md:px-6">
 											<span>View Code</span>
 											<ArrowUpRightIcon className="size-4" />
 										</button>

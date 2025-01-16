@@ -37,11 +37,11 @@ export default function Hero() {
 					</p>
 				</div>
 				<div className="flex flex-col items-center gap-4 mt-8 md:flex-row md:justify-center">
-					<button className="h-12 inline-flex items-center gap-2 px-6 border rounded-xl border-[#F8F8F2]/25 transition duration-300 hover:text-[#50FA7B] hover:border-[#50FA7B]/30">
+					<button className="h-12 inline-flex items-center gap-2 px-6 border rounded-xl border-[#F8F8F2]/25 transition duration-300 hover:text-[#50FA7B] hover:border-[#50FA7B]/30 hover:scale-95">
 						<span>📁</span>
 						<span className="font-semibold">Explore Projects</span>
 					</button>
-					<button className="h-12 inline-flex items-center gap-2 px-6 text-black/95 rounded-xl bg-[#F8F8F2] transition duration-300 hover:text-black/95 hover:bg-[#50FA7B]">
+					<button className="h-12 inline-flex items-center gap-2 px-6 text-black/95 rounded-xl bg-[#F8F8F2] transition duration-300 hover:text-black/95 hover:bg-[#50FA7B] hover:scale-95">
 						<ArrowDown className="size-4" />
 						<span className="font-semibold">Download CV</span>
 					</button>
