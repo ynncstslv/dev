@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Header() {
 	return (
 		<div className="w-full fixed top-4 flex items-center justify-center z-50">
