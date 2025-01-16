@@ -4,7 +4,8 @@ import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import CheckIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
-import grainImage from '@/assets/images/grain.jpg';
+import SectionHeader from '@/components/SectionHeader';
+import Card from '@/components/Card';
 
 const portfolioProjects = [
 	{
@@ -52,27 +53,17 @@ export default function Projects() {
 	return (
 		<section className="pb-16 lg:py-24">
 			<div className="container">
-				<div className="flex justify-center">
-					<p className="font-semibold tracking-widest uppercase text-transparent bg-gradient-to-r from-[#50FA7B] to-[#8BE9FD] bg-clip-text">
-						Real-World Results
-					</p>
-				</div>
-				<h2 className="mt-6 font-serif text-3xl text-center md:text-5xl">
-					Featured Projects
-				</h2>
-				<p className="max-w-md mx-auto mt-2 font-light text-sm text-center text-[#F8F8F2]/50 md:text-lg">
-					See how I transformed concepts into engaging digital experiences.
-				</p>
+				<SectionHeader
+					eyebrow="Real-World Results"
+					title="Featured Projects"
+					description="See how I transformed concepts into engaging digital experiences."
+				/>
 				<div className="flex flex-col gap-16 mt-10 md:mt-20">
 					{portfolioProjects.map((project) => (
-						<div
+						<Card
 							key={project.key}
-							className='relative px-8 pt-8 rounded-3xl bg-[#F8F8F2]/5 z-0 overflow-hidden after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:outline-[#F8F8F2]/15 after:-outline-offset-2 after:rounded-3xl after:z-10 after:pointer-events-none md:px-10 md:pt-12 lg:px-20 lg:pt-16'
+							className="px-8 pt-8 pb-0 md:px-10 md:pt-12 lg:px-20 lg:pt-16"
 						>
-							<div
-								className="absolute inset-0 -z-10 opacity-5"
-								style={{ backgroundImage: `url(${grainImage.src})` }}
-							/>
 							<div className="lg:grid lg:grid-cols-2 lg:gap-16">
 								<div className="lg:pb-16">
 									<div className="inline-flex gap-2 text-xs font-bold tracking-widest uppercase text-transparent bg-gradient-to-r from-[#FF79C6] to-[#BD93F9] bg-clip-text">
@@ -110,7 +101,7 @@ export default function Projects() {
 									/>
 								</div>
 							</div>
-						</div>
+						</Card>
 					))}
 				</div>
 			</div>
