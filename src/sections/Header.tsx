@@ -1,7 +1,9 @@
+import React from 'react';
+
 export default function Header() {
 	return (
-		<div className="w-full fixed top-3 flex items-center justify-center z-50">
-			<nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/5 backdrop-blur">
+		<div className="w-full fixed top-4 flex items-center justify-center z-50">
+			<nav className="flex gap-2 p-0.5 border border-[#F8F8F2]/20 rounded-full bg-[#F8F8F2]/5 backdrop-blur">
 				<a href="#" className="nav-item">
 					Home
 				</a>
@@ -13,7 +15,7 @@ export default function Header() {
 				</a>
 				<a
 					href="#"
-					className="nav-item text-black/95 bg-[#F8F8F2] hover:text-black/95 hover:bg-[#50FA7B]"
+					className="nav-item text-[#F8F8F2]/80 bg-[#F8F8F2]/10 hover:text-black/95 hover:bg-[#F8F8F2]"
 				>
 					Contact
 				</a>
