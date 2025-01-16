@@ -101,6 +101,35 @@ export default function About() {
 					description="Learn more about who I am, what I do, and what inspires me."
 				/>
 				<div className="flex flex-col gap-8 mt-20">
+					<div>
+						<Card>
+							<CardHeader title="whoami" description="Hi 👋, I'm Yann!" />
+							<div className="px-6 pb-6 font-light text-sm leading-6 text-[#F8F8F2]/80 md:px-8 md:pb-8 lg:px-6 lg:text-base">
+								<p>
+									As a software engineer, I am passionate about creating clean,
+									efficient, high-performance, and scalable solutions that solve
+									real-world problems. With a strong focus on backend
+									development using Go, my curiosity and commitment to
+									continuous learning have led me to also work in frontend
+									development with TypeScript, React, and Next.js, as well as in
+									cybersecurity, specializing in offensive security through
+									penetration testing and bug bounty hunting.
+								</p>
+								<p className="mt-4">
+									In addition to my technical expertise, I have a creative
+									background in graphic design and sound engineering, which
+									allows me to approach development with a unique
+									perspective—balancing technical precision with creative
+									innovation.
+								</p>
+								<p className="mt-4">
+									At my core, I am driven by the challenge of building solutions
+									that are not only functional but also deliver seamless,
+									user-centered experiences.
+								</p>
+							</div>
+						</Card>
+					</div>
 					<div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
 						<Card className="h-[320px] md:col-span-2 lg:col-span-1">
 							<CardHeader
