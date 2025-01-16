@@ -51,7 +51,7 @@ const portfolioProjects = [
 
 export default function Projects() {
 	return (
-		<section className="pb-16 lg:py-24">
+		<section className="py-16 lg:py-24">
 			<div className="container">
 				<SectionHeader
 					eyebrow="Real-World Results"
