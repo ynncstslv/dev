@@ -1,6 +1,6 @@
 export default function Header() {
 	return (
-		<div className="relative top-4 flex items-center justify-center">
+		<div className="w-full fixed top-3 flex items-center justify-center z-50">
 			<nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/5 backdrop-blur">
 				<a href="#" className="nav-item">
 					Home

@@ -6,4 +6,8 @@
 	.nav-item {
 		@apply px-4 py-1.5 text-sm font-normal tracking-wide text-[#F8F8F2]/60 rounded-full transition duration-300 hover:text-[#F8F8F2] hover:bg-[#F8F8F2]/5;
 	}
+
+	.hero-ring {
+		@apply absolute top-1/2 left-1/2 inset-0 border-2 rounded-full border-[#FF79C6]/5 -translate-x-1/2 -translate-y-1/2 shadow-[0_0_80px_inset] shadow-[#FF79C6]/5 -z-10;
+	}
 }
