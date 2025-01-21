@@ -1,4 +1,5 @@
 import ToolIcon from '@/components/ToolIcon';
+import { Fragment } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 export default function ToolboxItems({
@@ -23,15 +24,21 @@ export default function ToolboxItems({
 					itemsWrapperClassName
 				)}
 			>
-				{items.map((item) => (
-					<div
-						key={item.id}
-						className="inline-flex items-center gap-4 px-3 py-2 rounded-lg outline outline-2 outline-[#F8F8F2]/10"
-					>
-						<ToolIcon component={item.iconType} />
-						<span className="font-semibold">{item.title}</span>
-					</div>
-				))}
+				{[
+					...new Array(2).fill(0).map((_, idx) => (
+						<Fragment key={idx}>
+							{items.map((item) => (
+								<div
+									key={item.id}
+									className="inline-flex items-center gap-4 px-3 py-2 rounded-lg outline outline-2 outline-[#F8F8F2]/10"
+								>
+									<ToolIcon component={item.iconType} />
+									<span className="font-semibold">{item.title}</span>
+								</div>
+							))}
+						</Fragment>
+					)),
+				]}
 			</div>
 		</div>
 	);
