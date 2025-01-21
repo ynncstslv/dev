@@ -1,57 +1,7 @@
 import Image from 'next/image';
-import memojiZaheer from '@/assets/images/memoji-avatar-1.png';
-import memojiOzden from '@/assets/images/memoji-avatar-2.png';
-import memojiSamuelson from '@/assets/images/memoji-avatar-3.png';
-import memojiCatarina from '@/assets/images/memoji-avatar-4.png';
-import memojiJoaoPedro from '@/assets/images/memoji-avatar-5.png';
-import memojiPadmaja from '@/assets/images/memoji-avatar-6.png';
 import SectionHeader from '@/components/SectionHeader';
 import Card from '@/components/Card';
-
-const testimonials = [
-	{
-		id: 1,
-		name: 'P.A. Zaheer',
-		position: 'Product Owner @ HP Inc.',
-		text: 'I truly appreciated all your efforts. You always stayed on top of deadlines and approached every task with professionalism.',
-		avatar: memojiZaheer,
-	},
-	{
-		id: 2,
-		name: 'P. Nandigam',
-		position: 'Lead DevOps @ HP Inc.',
-		text: 'Thank you for sharing your knowledge and supporting my projects. Your contributions made a real difference to our work.',
-		avatar: memojiPadmaja,
-	},
-	{
-		id: 3,
-		name: 'O. Firat',
-		position: 'Quality Assurance @ HP Inc.',
-		text: 'Working with you was a great pleasure. Your dedication and eagerness to help the team really stood out.',
-		avatar: memojiOzden,
-	},
-	{
-		id: 4,
-		name: 'J.P. Leite',
-		position: 'Product Owner @ Guaia',
-		text: 'Your attention to detail and proactive approach ensure we meet our product goals. It’s great having someone so committed on the team.',
-		avatar: memojiJoaoPedro,
-	},
-	{
-		id: 5,
-		name: 'C. Miranda',
-		position: 'Product Manager @ Guaia',
-		text: 'Your professionalism and dedication consistently drive results. You align technical expertise with our broader business objectives effortlessly.',
-		avatar: memojiCatarina,
-	},
-	{
-		id: 6,
-		name: 'S. Esteves',
-		position: 'Software Engineer @ Guaia',
-		text: 'It’s been a pleasure collaborating with you. Your technical insights and collaborative spirit have elevated our development process.',
-		avatar: memojiSamuelson,
-	},
-];
+import { testimonials } from '@/constants/constants';
 
 export default function Testimonials() {
 	return (

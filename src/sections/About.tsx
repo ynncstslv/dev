@@ -1,95 +1,12 @@
-import Card from '@/components/Card';
-import SectionHeader from '@/components/SectionHeader';
-import onRepeatImage from '@/assets/images/on-repeat.png';
 import Image from 'next/image';
-import ReactIcon from '@/assets/icons/devicons/react.svg';
-import NextIcon from '@/assets/icons/devicons/next.svg';
-import TypeScriptIcon from '@/assets/icons/devicons/typescript.svg';
-import GoIcon from '@/assets/icons/devicons/go.svg';
-import PythonIcon from '@/assets/icons/devicons/python.svg';
-import GitIcon from '@/assets/icons/devicons/git.svg';
-import mapImage from '@/assets/images/map.png';
-import memojiSmileImage from '@/assets/images/memoji-smile.png';
+import SectionHeader from '@/components/SectionHeader';
+import Card from '@/components/Card';
 import CardHeader from '@/components/CardHeader';
 import ToolboxItems from '@/components/ToolboxItems';
-
-const toolboxItems = [
-	{
-		id: 1,
-		title: 'React',
-		iconType: ReactIcon,
-	},
-	{
-		id: 2,
-		title: 'Next.js',
-		iconType: NextIcon,
-	},
-	{
-		id: 3,
-		title: 'TypeScript',
-		iconType: TypeScriptIcon,
-	},
-	{
-		id: 4,
-		title: 'Go',
-		iconType: GoIcon,
-	},
-	{
-		id: 5,
-		title: 'Python',
-		iconType: PythonIcon,
-	},
-	{
-		id: 6,
-		title: 'Git',
-		iconType: GitIcon,
-	},
-];
-
-const hobbies = [
-	{
-		id: 1,
-		title: 'Concerts',
-		emoji: '🎸',
-		left: '5%',
-		top: '5%',
-	},
-	{
-		id: 2,
-		title: 'Gaming',
-		emoji: '🎮',
-		left: '50%',
-		top: '5%',
-	},
-	{
-		id: 3,
-		title: 'Painting',
-		emoji: '🎨',
-		left: '10%',
-		top: '35%',
-	},
-	{
-		id: 4,
-		title: 'Reading',
-		emoji: '📚',
-		left: '35%',
-		top: '40%',
-	},
-	{
-		id: 5,
-		title: 'Gym',
-		emoji: '🏋🏻',
-		left: '70%',
-		top: '45%',
-	},
-	{
-		id: 6,
-		title: 'Do Nothing',
-		emoji: '😴',
-		left: '5%',
-		top: '65%',
-	},
-];
+import onRepeatImage from '@/assets/images/on-repeat.png';
+import mapImage from '@/assets/images/map.png';
+import memojiSmileImage from '@/assets/images/memoji-smile.png';
+import { hobbies, toolboxItems } from '@/constants/constants';
 
 export default function About() {
 	return (

@@ -1,53 +1,9 @@
 import Image from 'next/image';
-import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
-import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
-import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import CheckIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import SectionHeader from '@/components/SectionHeader';
 import Card from '@/components/Card';
-
-const portfolioProjects = [
-	{
-		key: 1,
-		company: 'Guaia',
-		year: '2025',
-		title: 'Skriptr',
-		results: [
-			{ key: '1.1', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '1.2', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '1.3', title: 'Lorem ipsum dolor sit amet.' },
-		],
-		link: 'https://placeholder.com/001',
-		image: darkSaasLandingPage,
-	},
-	{
-		key: 2,
-		company: 'Guaia',
-		year: '2025',
-		title: 'Scrapr',
-		results: [
-			{ key: '2.1', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '2.2', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '2.3', title: 'Lorem ipsum dolor sit amet.' },
-		],
-		link: 'https://placeholder.com/002',
-		image: lightSaasLandingPage,
-	},
-	{
-		key: 3,
-		company: 'Guaia',
-		year: '2025',
-		title: 'Trackr',
-		results: [
-			{ key: '3.1', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '3.2', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '3.3', title: 'Lorem ipsum dolor sit amet.' },
-		],
-		link: 'https://placeholder.com/003',
-		image: aiStartupLandingPage,
-	},
-];
+import { portfolioProjects } from '@/constants/constants';
 
 export default function Projects() {
 	return (
