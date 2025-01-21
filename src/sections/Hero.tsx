@@ -22,7 +22,9 @@ export default function Hero() {
 				<div className="flex flex-col items-center">
 					<Image src={memojiImage} alt="Emoji me" className="size-[100px]" />
 					<div className="inline-flex items-center gap-4 px-4 py-1.5 border rounded-lg border-[#282A36]/80 bg-black">
-						<div className="size-2.5 rounded-full bg-[#50FA7B]" />
+						<div className="relative size-2.5 rounded-full bg-[#50FA7B]">
+							<div className="absolute inset-0 rounded-full bg-[#50FA7B]/80 animate-ping-large" />
+						</div>
 						<p className="text-sm font-normal">Available to Work</p>
 					</div>
 				</div>
