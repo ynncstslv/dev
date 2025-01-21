@@ -45,10 +45,12 @@ export default function Hero() {
 							<span className="font-semibold">Explore Projects</span>
 						</button>
 					</a>
-					<button className="h-12 inline-flex items-center gap-2 px-6 text-black/95 rounded-xl bg-[#F8F8F2] transition duration-300 hover:text-black/95 hover:bg-[#50FA7B] hover:scale-95">
-						<ArrowDown className="size-4" />
-						<span className="font-semibold">Download CV</span>
-					</button>
+					<a href="./yann_costa_e_silva_cv_2025.pdf" download>
+						<button className="h-12 inline-flex items-center gap-2 px-6 text-black/95 rounded-xl bg-[#F8F8F2] transition duration-300 hover:text-black/95 hover:bg-[#50FA7B] hover:scale-95">
+							<ArrowDown className="size-4" />
+							<span className="font-semibold">Download CV</span>
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
