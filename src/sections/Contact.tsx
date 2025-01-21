@@ -5,7 +5,7 @@ export default function Contact() {
 	return (
 		<section className="pt-12 pb-16 lg:pt-20 lg:pb-24">
 			<div className="container">
-				<div className=" relative px-10 py-8 text-center text-black/95 rounded-3xl bg-gradient-to-r from-[#FF79C6] to-[#BD93F9] z-0 overflow-hidden md:text-left">
+				<div className="relative px-10 py-8 text-center text-black/95 rounded-3xl bg-gradient-to-r from-[#FF79C6] to-[#BD93F9] z-10 overflow-hidden md:text-left">
 					<div
 						className="absolute inset-0 -z-10 opacity-5"
 						style={{ backgroundImage: `url(${grainImage.src})` }}

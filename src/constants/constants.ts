@@ -403,3 +403,21 @@ export const testimonials = [
 		avatar: memojiSamuelson,
 	},
 ];
+
+export const footerLinks = [
+	{
+		id: 1,
+		title: 'GitHub',
+		href: 'https://github.com/ynncstslv/',
+	},
+	{
+		id: 2,
+		title: 'LinkedIn',
+		href: 'https://linkedin.com/in/ynncstslv/',
+	},
+	{
+		id: 3,
+		title: 'Instagram',
+		href: 'https://instagram.com/ynncstslv/',
+	},
+];
