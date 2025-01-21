@@ -54,48 +54,6 @@ import memojiCatarina from '@/assets/images/memoji-avatar-4.png';
 import memojiJoaoPedro from '@/assets/images/memoji-avatar-5.png';
 import memojiPadmaja from '@/assets/images/memoji-avatar-6.png';
 
-export const portfolioProjects = [
-	{
-		key: 1,
-		company: 'Guaia',
-		year: '2025',
-		title: 'Skriptr',
-		results: [
-			{ key: '1.1', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '1.2', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '1.3', title: 'Lorem ipsum dolor sit amet.' },
-		],
-		link: 'https://placeholder.com/001',
-		image: darkSaasLandingPage,
-	},
-	{
-		key: 2,
-		company: 'Guaia',
-		year: '2025',
-		title: 'Scrapr',
-		results: [
-			{ key: '2.1', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '2.2', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '2.3', title: 'Lorem ipsum dolor sit amet.' },
-		],
-		link: 'https://placeholder.com/002',
-		image: lightSaasLandingPage,
-	},
-	{
-		key: 3,
-		company: 'Guaia',
-		year: '2025',
-		title: 'Trackr',
-		results: [
-			{ key: '3.1', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '3.2', title: 'Lorem ipsum dolor sit amet.' },
-			{ key: '3.3', title: 'Lorem ipsum dolor sit amet.' },
-		],
-		link: 'https://placeholder.com/003',
-		image: aiStartupLandingPage,
-	},
-];
-
 export const toolboxItems = [
 	{
 		id: 1,
@@ -357,6 +315,63 @@ export const hobbies = [
 		left: '5%',
 		top: '65%',
 	},
+];
+
+export const portfolioProjects = [
+	{
+		key: 1,
+		company: 'Guaia',
+		year: '2025',
+		title: 'Skriptr',
+		results: [
+			{ key: '1.1', title: 'Lorem ipsum dolor sit amet.' },
+			{ key: '1.2', title: 'Lorem ipsum dolor sit amet.' },
+			{ key: '1.3', title: 'Lorem ipsum dolor sit amet.' },
+		],
+		link: 'https://placeholder.com/001',
+		image: darkSaasLandingPage,
+	},
+	{
+		key: 2,
+		company: 'Guaia',
+		year: '2025',
+		title: 'Scrapr',
+		results: [
+			{ key: '2.1', title: 'Lorem ipsum dolor sit amet.' },
+			{ key: '2.2', title: 'Lorem ipsum dolor sit amet.' },
+			{ key: '2.3', title: 'Lorem ipsum dolor sit amet.' },
+		],
+		link: 'https://placeholder.com/002',
+		image: lightSaasLandingPage,
+	},
+	{
+		key: 3,
+		company: 'Guaia',
+		year: '2025',
+		title: 'Trackr',
+		results: [
+			{ key: '3.1', title: 'Lorem ipsum dolor sit amet.' },
+			{ key: '3.2', title: 'Lorem ipsum dolor sit amet.' },
+			{ key: '3.3', title: 'Lorem ipsum dolor sit amet.' },
+		],
+		link: 'https://placeholder.com/003',
+		image: aiStartupLandingPage,
+	},
+];
+
+export const keywords = [
+	'Efficient',
+	'Scalable',
+	'Secure',
+	'Functional',
+	'Creative',
+	'High-Performance',
+	'Reliable',
+	'Seamless',
+	'Innovative',
+	'Maintainable',
+	'Accessible',
+	'User-Centered',
 ];
 
 export const testimonials = [
