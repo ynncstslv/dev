@@ -7,7 +7,7 @@ import { portfolioProjects } from '@/constants/constants';
 
 export default function Projects() {
 	return (
-		<section className="py-16 lg:py-24">
+		<section className="py-16 lg:py-24" id="projects">
 			<div className="container">
 				<SectionHeader
 					eyebrow="Real-World Results"
