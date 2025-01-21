@@ -15,7 +15,7 @@ export default function Testimonials() {
 				have to say about me."
 				/>
 				<div className="flex mt-12 overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] lg:mt-24 py-4 -my-4">
-					<div className="flex flex-none gap-8 animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
+					<div className="flex flex-none gap-8 animate-move-left [animation-duration:90s] hover:[animation-play-state:paused] pr-8">
 						{[...new Array(2)].fill(0).map((_, idx) => (
 							<Fragment key={idx}>
 								{testimonials.map((testimonial) => (
